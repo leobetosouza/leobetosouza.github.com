@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: HTML | Leobetosouza]]></title>
+  <link href="http://leobetosouza.com.br/blog/categories/html/atom.xml" rel="self"/>
+  <link href="http://leobetosouza.com.br/"/>
+  <updated>2014-03-04T02:59:21-03:00</updated>
+  <id>http://leobetosouza.com.br/</id>
+  <author>
+    <name><![CDATA[Leonardo Alberto Souza]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Configurando Twitter Cards Para O Seu Site]]></title>
+    <link href="http://leobetosouza.com.br/blog/2014/03/04/configurando-twitter-cards-para-o-seu-site/"/>
+    <updated>2014-03-04T00:46:40-03:00</updated>
+    <id>http://leobetosouza.com.br/blog/2014/03/04/configurando-twitter-cards-para-o-seu-site</id>
+    <content type="html"><![CDATA[<p>Quando estava configurando esse blog (em breve um post sobre) encontrei uma pequena dificuldade em fazer os <a href="https://dev.twitter.com/cards">Twitter Cards</a> funcionarem corretamente. Seguindo a linha do <a href="http://leobetosouza.com.br/blog/2014/03/03/aprendendo-publicando-e-caminhando/">publique o que você aprender</a>, resolvi escrever um mini tutorial sobre o assunto:</p>
+
+<h2>O que são Twitter Cards?</h2>
+
+<p>É <strong>metainformação</strong> que o Twitter mostra sobre um link que é colocado no tweet. Como por exemplo <a href="https://twitter.com/leobetosouza/status/440668936606998528">nesse tweet meu</a>:</p>
+
+<p><img class="center" src="/images/posts/2014-03-04-configurando-twitter-cards/screenshot-twitter.png" title="[Twitter card do meu último post [screenshot do Twitter mostrando o Card gerado pelo meu último post]]" ></p>
+
+<p>Se você prestar atenção verá que o Twitter além do meu tweet adicionou mais algums dados sobre o link: o titulo do artigo, o autor (eu), o nome do usuário do autor no Twitter, uma descriçao, uma foto e um link direto para o artigo.</p>
+
+<p>Se você está acostumado a usar o <em>serviço de microblog</em> deve perceber que ele não gera esse tipo de dados para todos os links que são postados por lá. O motivo é que o responsável pelo site linkado tem que prover a metainformação e solicitar ao Twitter a criação dos Cards.</p>
+
+<h2>Metainformação</h2>
+
+<p>Metainformação (ou <strong>metadados</strong>) são, em uma maneira bem simplista, dados sobre os dados que estão sendo transmitidos.</p>
+
+<p>No caso em questão o dado é o meu post <a href="http://leobetosouza.com.br/blog/2014/03/03/sobre-trabalhar-com-que-se-gosta/">Sobre trabalhar com o que se gosta e a falta de oportunidades</a> e metainformação sobre é qualquer coisa que a gente possa falar sobre ele. Como o autor, o link, quantidade de caracteres, <em>whatever</em>.</p>
+
+<p>Em <code>HTML</code> a forma mais comum de adicionar metainformação à uma página é usando a tag <code>&lt;meta&gt;</code>.</p>
+
+<h2>Twitter Cards e Open Graph</h2>
+
+<p>O Twitter pega a tal da metainformação da sua página se você fizer a marcação direitinho usando a sintaxe do <strong>Open Graph</strong>, um protocolo da <strong>web semântica</strong> criado pelo Facebook.</p>
+
+<p>É bem simples, se você já adiciounou <em>markup</em> para o Facebook, só precisa adicionar algumas poucas <em>tags</em>.</p>
+
+<p>Se você olhar o <code>HTML</code> do <code>&lt;head&gt;</code> do artigo acima vai achar lá essas <em>tags</em>:</p>
+
+<p><code>html
+&lt;meta name="twitter:card" content="summary"&gt;
+&lt;meta name="twitter:creator" content="@leobetosouza"&gt;
+&lt;meta name="twitter:site" content="@leobetosouza"&gt;
+&lt;meta name="twitter:domain" content="leobetosouza.com.br"&gt;
+&lt;meta name="twitter:title" content="Sobre Trabalhar Com Que Se Gosta E a Falta De Oportunidades - Leobetosouza | Codando e andando"&gt;
+&lt;meta name="twitter:description" content="Uma carreira onde você não amaldiçoe a segunda-feira deveria você procurar."&gt;
+&lt;meta property="og:image" content="http://gravatar.com/avatar/da00e54f8aa22a44d97d6dae09a8b859?size=210"&gt;
+</code></p>
+
+<ul>
+<li><code>twitter:card</code> é o tipo de Card que você quer que o Twitter exiba. O mais comum é o <code>summary</code>, mas você pode ver os outros <a href="https://dev.twitter.com/docs/cards">nesse link</a></li>
+<li><code>twitter:creator</code> é o @ do autor do artigo em questão</li>
+<li><code>twitter:site</code> é o @ do seu site</li>
+<li><code>twitter:domain</code> é o domínio do seu site (opcional)</li>
+<li><code>twitter:title</code> o título que você quer que apareça no Card (que pode ser diferente do <code>&lt;title&gt;</code> da sua página)</li>
+<li><code>twitter:descrition</code> um resumo de até 200 caracteres que vai aparecer no Card.</li>
+<li><code>og:image</code> é a imagem que aparecerá no Card (já falo mais sobre isso)</li>
+</ul>
+
+
+<p>Note que como o meu site e eu usamos a mesma conta do Twitter, então <code>twitter:site</code> e <code>twitter:creator</code> são iguais. Se você olhar <a href="http://imasters.com.br/apis/apis-paypal/testando-as-apis-paypal-no-sandbox/">nesse artigo</a> do <a href="http://twitter.com/netojoaobatista">@netojoaobatista</a> no <a href="http://twitter.com/iMasters">@iMasters</a> vai ver um exemplo de @s diferentes.</p>
+
+<p>A <a href="https://dev.twitter.com/docs/cards/getting-started">Documentação</a> do Cards diz que eles aproveitam a marcação do <code>og:title</code>, <code>og:description</code> e <code>og:image</code> já usadas pelo Facebook para você não precisar adicionar as equivalentes do Twitter, mas no meu caso isso não funcionou para o título e a descrição. Eu tive que usar as <em>tags</em> do do Twitter. Por isso uso <code>og:image</code> no exemplo, mas o equivalente do Twitter é <code>twitter:image:src</code>.</p>
+
+<h2>Validação e aprovação</h2>
+
+<p>O Twitter disponibiliza <a href="https://dev.twitter.com/docs/cards/validation/validator">uma ferramenta para validação e solicitação de Cards</a> chamada <em>Card Validator</em>.</p>
+
+<p>É bem fácil, só publicar sua página com a <em>markup</em> necessário, ir no <em>Card Validator</em>, clicar em <em>Try &amp; Apply</em>, colocar o link lá e testar.</p>
+
+<p><img class="center" src="/images/posts/2014-03-04-configurando-twitter-cards/screenshot-card-validator-pendente.png" title="[Interface do Card Validator [screenshot do Card Validator mostrando que meu card é válido e esperando aprovação]]" ></p>
+
+<p>Se tiver tudo OK, vai aparecer um link para requisitar o uso do Card. Só clicar e esperar.</p>
+
+<p>No meu caso eu recebi um email quase instaneamente informando o Summary Card foi ativado para o meu site:</p>
+
+<p><img class="center" src="/images/posts/2014-03-04-configurando-twitter-cards/screenshot-email.png" title="[Email do Twitter informando que meu summary card foi aprovado [screenshot do email que o Twitter me enviou informando que ativei os summary cards para o meu site]]" ></p>
+
+<p>E lá no Card Validator o status mudou :)</p>
+
+<p><img class="center" src="/images/posts/2014-03-04-configurando-twitter-cards/screenshot-card-validator-aprovado.png" title="[Card Validator informando que meu summary card foi aprovado [screenshot do Card Validator informando que o summary card foi aprovado]]" ></p>
+
+<p>Depois de tudo certo só postar seu link no Twitter e esperar que seus seguidores apreciem a novidade ;)</p>
+
+<p>Se você quiser usar outro tipo de Card (como <code>photo</code> ou <code>summary_large_image</code>) no seu site, além de adicionar <em>markup</em> para o mesmo, terá que solicitar aprovação separadamente para cada um.</p>
+
+<p>Espero em breve poder testar o <a href="https://dev.twitter.com/docs/cards/types/product-card">Product Card</a> na <a href="http://www.estantevirtual.com.br">Estante Virtual</a>. ^^</p>
+]]></content>
+  </entry>
+  
+</feed>
