@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Front-end | Leobetosouza]]></title>
   <link href="http://leobetosouza.com.br/blog/categories/front-end/atom.xml" rel="self"/>
   <link href="http://leobetosouza.com.br/"/>
-  <updated>2014-03-04T02:59:21-03:00</updated>
+  <updated>2014-03-04T03:04:12-03:00</updated>
   <id>http://leobetosouza.com.br/</id>
   <author>
     <name><![CDATA[Leonardo Alberto Souza]]></name>
@@ -19,6 +19,9 @@
     <updated>2014-03-04T00:46:40-03:00</updated>
     <id>http://leobetosouza.com.br/blog/2014/03/04/configurando-twitter-cards-para-o-seu-site</id>
     <content type="html"><![CDATA[<p>Quando estava configurando esse blog (em breve um post sobre) encontrei uma pequena dificuldade em fazer os <a href="https://dev.twitter.com/cards">Twitter Cards</a> funcionarem corretamente. Seguindo a linha do <a href="http://leobetosouza.com.br/blog/2014/03/03/aprendendo-publicando-e-caminhando/">publique o que você aprender</a>, resolvi escrever um mini tutorial sobre o assunto:</p>
+
+<!-- more -->
+
 
 <h2>O que são Twitter Cards?</h2>
 
