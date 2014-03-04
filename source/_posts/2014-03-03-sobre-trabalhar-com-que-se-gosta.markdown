@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sobre trabalhar com  que se gosta e a falta de oportunidades"
+title: "Sobre trabalhar com o que se gosta e a falta de oportunidades"
 date: 2014-03-03 19:52:23 -0300
 comments: true
 categories: [Carreira]
