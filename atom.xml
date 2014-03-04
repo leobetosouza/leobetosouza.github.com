@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Leobetosouza]]></title>
+  <link href="http://leobetosouza.com.br/atom.xml" rel="self"/>
+  <link href="http://leobetosouza.com.br/"/>
+  <updated>2014-03-03T21:28:24-03:00</updated>
+  <id>http://leobetosouza.com.br/</id>
+  <author>
+    <name><![CDATA[Leonardo Alberto Souza]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Sobre Trabalhar Com Que Se Gosta E a Falta De Oportunidades]]></title>
+    <link href="http://leobetosouza.com.br/blog/2014/03/03/sobre-trabalhar-com-que-se-gosta/"/>
+    <updated>2014-03-03T19:52:23-03:00</updated>
+    <id>http://leobetosouza.com.br/blog/2014/03/03/sobre-trabalhar-com-que-se-gosta</id>
+    <content type="html"><![CDATA[<p>Semana passada, motivado por um papo com uma amiga, fiz um post no Facebook que acabou gerando uma repercussão legal. Resolvi reproduzi-lo aqui com algumas mudanças.</p>
+
+<!-- more -->
+
+
+<blockquote><p>Estava coversando com uma amiga há pouco e soltei a seguinte frase:</p>
+
+<p>&ldquo;Meu trabalho não me faz chegar na segunda-feira e pensar: &lsquo;que merda, tenho que trabalhar hoje.&rsquo;&rdquo;</p>
+
+<p>E é verdade&hellip; eu gosto do que eu faço. E a <a href="http://www.estantevirtual.com.br/">Estante Virtual</a> é um lugar muito legal pra se trabalhar com uma equipe fantástica.</p>
+
+<p>Eu lembrei de quando eu tava na 5a. ou 6a. série: dentro do Metrô, eu e um amigo de infancia (ambos provavelmente cabulando aula) estavamos falando sobre como a gente iria trabalhar, ganhar dinheiro, etc. Na época eu não fazia ideia ainda do que faria da vida, mas eu lembro que falei (com a certeza que só moleques de uns 13 anos tem) que &ldquo;eu vou trabalhar com o que me fizer feliz e o dinheiro vai vir&rdquo;. Eu não sei se ouvi/li isso em algum lugar, mas foi o que eu disse e o que eu tento fazer até hoje.</p>
+
+<p>Um dia eu descobri que eu gostava de trabalhar com web e aqui estou eu hoje, todo dia aprendendo uma coisa nova e vez ou outra fazendo besteira. Mas ainda gostando muito de uma parada que atiçou minha curiosidade já fazem mais de 10 anos.</p>
+
+<p>Talvez eu mude de ideia um dia e tenha que correr atrás de outra coisa.</p>
+
+<p>Deus foi/é bom comigo. Eu tive boas oportunidades que aproveitei. Mas foram todas escolhas que eu fiz e tive que correr atrás.</p>
+
+<p>E você, ta esperando o que pra correr atrás também de fazer algo que não faça lamentar a existencia da segunda-feira?</p></blockquote>
+
+<p>Bom, o <a href="http://blog.millermedeiros.com/">Miller Medeiros</a> lá no Facebook fez um comentário deveras pertinente:</p>
+
+<blockquote><p>na época do vestibular fiquei na dúvida entre Economia e Design.. achei que escolhendo trabalhar em algo que eu gostasse (design) não ia ganhar dinheiro, mas fui estudar design assim mesmo.. já que escolhi algo que &ldquo;pagava menos&rdquo;, decidi dedicar bastante para ficar &ldquo;o melhor possível&rdquo;&hellip;</p>
+
+<p>comecei a programar cada vez mais (por diversão) e resolvi mudar de profissão depois de alguns anos; comecei a trabalhar exclusivamente com o meu hobby (programação)&hellip; e já que escolhi algo que gosto ainda mais do que design, dediquei 10x mais.</p>
+
+<p>parece que eu também sou bem sortudo, quanto mais eu me dedico, mais sorte eu tenho</p>
+
+<p>&ldquo;Sorte é estar preparado para a oportunidade quando ela aparece&rdquo;</p></blockquote>
+
+<p>Fica o apelo de novo: a gente tem o costume de colocar a culpa em fatores externos pra falta de <em>oportunidades</em> profissionais (uma das mais comuns, no mercado de TI por exemplo, é a da falta de regularmentação da profissão; mas isso é papo pra outro post).</p>
+
+<p>Que tal parar com isso e começar a se dedicar de verdade à profissão que você diz amar? Ou se não ama, por que não parte pra outra? Oportunidades no mercado de TI é que não falta pra gente boa e dedicada. :)</p>
+
+<p>(Quem quiser ver o post original com os comentários <a href="https://www.facebook.com/leobetosouza/posts/10152215032455837">pode ir lá no meu fb</a>&hellip;)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Aprendendo, Publicando E Caminhando]]></title>
+    <link href="http://leobetosouza.com.br/blog/2014/03/03/aprendendo-publicando-e-caminhando/"/>
+    <updated>2014-03-03T19:08:16-03:00</updated>
+    <id>http://leobetosouza.com.br/blog/2014/03/03/aprendendo-publicando-e-caminhando</id>
+    <content type="html"><![CDATA[<p>Mais uma vez começo um blog. :)</p>
+
+<p>A ideia dessa vez é sempre que tiver algo pra escrever que seja minimamente relevante, colocar aqui. Normalmente uso meu <a href="http://facebook.com/leobetosouza">perfil no facebook</a>, mas, em grande parte motivado por <a href="http://blog.w3c.br/vamos-publicar-conteudo-aberto/">este post do Reinaldo Ferraz</a>, resolvi que era hora de deixar esses escritos num lugar de acesso mais aberto e <em>relativamente</em> perpétuo.</p>
+
+<!-- more -->
+
+
+<p>Minha segunda motivação é um post da <strong>Smashing Maganize</strong> que está me incomodando há temos. O cerne dele é incentivar que <a href="http://www.smashingmagazine.com/2012/03/30/publish-what-you-learn/">publiquemos o que aprendemos</a> não só para ajudar outros à aprender também, mas solidificar nosso próprio processo de aprendizado. Eu acredito que esse post seja um <em>must read</em> pra todo mundo que trabalha com desenvolvimento.</p>
+
+<p>A terceira coisa é tentar escrever coisas mais relevantes para comunidade como um todo. Eu tenho alguns pensamentos sobre desenvolvimento e carreira que tenho vontade dividir e por à prova, e acredito que um blog seja um bom início. Há altas chances de aparecerem alguns artigos por aqui no meu ingrês sofrível (não hesite em me corrigir quando necessário).</p>
+
+<p>Falando nisso: o motivo de ter um caixa de comentários nos posts é que o meu intuito é dividir conhecimento e aprender com a comunidade. Não deixe mesmo de corrigir ou expressar opiniões divergentes ao o que for escrito por mim. Só peço que seja educado e cortês sempre. ;)</p>
+
+<p>É isso. Espero estar de volta em breve com algo mais relevante.</p>
+
+<p><em>Cya!</em></p>
+]]></content>
+  </entry>
+  
+</feed>
