@@ -9,6 +9,8 @@ description: Provendo metainformação para o Twitter no seu site deveria você 
 
 Quando estava configurando esse blog (em breve um post sobre) encontrei uma pequena dificuldade em fazer os [Twitter Cards](https://dev.twitter.com/cards) funcionarem corretamente. Seguindo a linha do [publique o que você aprender](http://leobetosouza.com.br/blog/2014/03/03/aprendendo-publicando-e-caminhando/), resolvi escrever um mini tutorial sobre o assunto:
 
+<!-- more -->
+
 ## O que são Twitter Cards?
 
 É **metainformação** que o Twitter mostra sobre um link que é colocado no tweet. Como por exemplo [nesse tweet meu](https://twitter.com/leobetosouza/status/440668936606998528):
