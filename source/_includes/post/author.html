@@ -5,4 +5,4 @@
 {% else %}
   {% assign author = site.author %}
 {% endif %}
-{% if author %}<span class="byline author vcard">Posted by <span class="fn">{{ author }}</span></span>{% endif %}
+{% if author %}<span class="byline author vcard"><em xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</em> posted by <span class="fn">{{ author }}</span></span>{% endif %}
