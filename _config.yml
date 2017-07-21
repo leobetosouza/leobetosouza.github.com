@@ -2,11 +2,11 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://leobetosouza.com.br
+url: https://leobetosouza.com.br
 title: Leobetosouza
 subtitle: Codando e andando
 author: Leonardo Alberto Souza
-simple_search: http://google.com/search
+simple_search: https://google.com/search
 description: Pensamentos esparsos sobre web development e coisas relacionadas ou não... Foco não é meu forte.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
@@ -83,11 +83,11 @@ googleplus_hidden: true
 
 # Pinboard
 pinboard_user:
-pinboard_count: 3
+pinboard_count:
 
 # Delicious
-delicious_user: leobetosouza
-delicious_count: 3
+delicious_user:
+delicious_count:
 
 # Disqus Comments
 disqus_short_name: leobetosouza
